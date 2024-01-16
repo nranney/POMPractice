@@ -14,7 +14,7 @@ public class SignInPage extends BasePage {
     public static final String LOGIN_ID_INPUT = "//input[@id='login_id']";
     public static final String NEXT_BTN = "//span[text()='Next']";
     public static final String PASSWORD_INPUT = "//input[@id='password']";
-    public static final String SIGN_IN_BTN = "//button[@id='nextbtn']/span[text()='Sign in']";
+    public static final String SIGN_IN_BTN = "//button[@id='nextbtn']/span";
     public final static Logger LOGGER = LoggerFactory.getLogger(SignInPage.class);
 
     @FindBy(how= How.XPATH, using = SIGN_IN_HEADER )
